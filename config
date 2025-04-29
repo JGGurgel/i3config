@@ -191,9 +191,10 @@ bar {
 
 assign [class="discord"] → 3
 assign [class="Google-chrome"] → 2
-assign [class="dbeaver"] → 4
+assign [class="DBeaver"] → 4
 
 exec --no-startup-id i3-msg "workspace 1; exec gnome-terminal"
 exec --no-startup-id i3-msg "workspace 2; exec google-chrome"
 exec --no-startup-id i3-msg "workspace 3; exec snap run discord"
-exec --no-startup-id i3-msg "workspace 4; exec dbeaver"
+exec --no-startup-id i3-msg "workspace 4; exec dbeaver; workspace 1"
+exec --no-startup-id i3-msg "workspace 1"
