@@ -202,3 +202,5 @@ exec --no-startup-id i3-msg "workspace 5; exec snap run spotify"
 exec --no-startup-id i3-msg "workspace 1;"
 exec --no-startup-id i3-msg "exec docker start crm-ubuntu"
 exec --no-startup-id i3-msg "exec docker start mysql-rubeus"
+
+bindsym Print exec gnome-screenshot -i
