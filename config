@@ -204,3 +204,6 @@ exec --no-startup-id i3-msg "exec docker start crm-ubuntu"
 exec --no-startup-id i3-msg "exec docker start mysql-rubeus"
 
 bindsym Print exec gnome-screenshot -i
+
+# amixer sset Master mute
+# amixer sset Master unmute
